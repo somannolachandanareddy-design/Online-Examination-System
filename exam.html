@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Online Examination</title>
+  <link rel="stylesheet" href="css/exam.css">
+</head>
+<body>
+
+<div class="exam-box">
+  <div class="top-bar">
+    <h3>Online Examination</h3>
+    <div id="timer">Time Left: 05:00</div>
+  </div>
+
+  <h2 id="question">Question text</h2>
+
+  <div id="options"></div>
+
+  <div class="nav-buttons">
+    <button onclick="prevQuestion()">Previous</button>
+    <button onclick="nextQuestion()">Next</button>
+    <button class="submit-btn" onclick="submitExam()">Submit</button>
+  </div>
+</div>
+
+<script src="js/questions.js"></script>
+<script src="js/timer.js"></script>
+<script src="js/exam.js"></script>
+
+</body>
+</html>
